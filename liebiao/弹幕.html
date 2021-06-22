@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>动态弹幕</title>
+
+
+    <style>
+            .cont
+            {
+                width:700px;
+                height:500px;
+                margin:60px auto;
+                front-size:32px;
+                position:relative;
+            }
+
+
+            .video
+            {
+                position: absolute;
+            }
+           
+           
+            .fast
+            {
+                color:aqua;
+                padding-top:10px;
+    
+                font: normal 26px/20px "";
+                float: left;
+                width:1000px;
+                height:100px;
+    
+                position: absolute;
+                top: 75px;
+    
+            }
+            
+            
+            .left
+            {
+                color: #ff5168;
+                font:normal 26px/20px"";
+                float:left;
+                position: absolute;
+                top: 130px;
+    
+            }
+
+            
+        </style>
+
+
+
+
+
+</head>
+
+<body>
+    <video src="HTML.mp4" CONTROLS="controls" WIDTH="700px" height="400px"></video>
+        
+    
+    
+        <marquee class="fast" direction="right" behavior="scroll" scrollamount="20">
+            哇哦，真是太棒了！！！
+        </marquee>
+        
+        
+        <marquee class="fast" direction="right" behavior="scroll" scrollamount="10">
+               牛啊！牛啊！！！
+        </marquee>
+        
+        
+        <marquee class="left" direction="left" behavior="alternate" scrollamount="20">
+                我了个乖乖！！！！
+        </marquee>
+        
+        
+        <marquee class="left" direction="left" behavior="alternate" scrollamount="10">
+            怎么会这样？？？
+        </marquee>
+</body>
+</html>
